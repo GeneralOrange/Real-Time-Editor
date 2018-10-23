@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+body, html {
+	background-color: #FDA7DF;
+}
+
+.container {
+	display: flex;
+	text-align: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	min-height: 100vh;
+}
+
+.top_bar, .footer {
+	flex-basis: 100%;
+	align-self: center;
+}
+
+#editor, #view {
+	flex-basis: 45%;
+	background-color: white;
+	border: 5px solid #12CBC4;
+}
+
+#editor {
+	background-color: #353535;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.fa-angle-double-right {
+	align-self: center;
+	font-size: 50px;
+	color: #EA2027;
+}
+
+.fa-edit {
+	color: white;
+}
